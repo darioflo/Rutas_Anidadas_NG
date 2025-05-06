@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<h1>Country-List</h1>
+
+<div class="country-lis-container">
+  @for (country of countries(); track country) {
+  <div class="country-card" (click)="goTo(country.name)">
+    <img [src]="country.flag" [alt]="country.name" />
+    <p>{{ country.name }}</p>
+  </div>
+  }
+</div>
