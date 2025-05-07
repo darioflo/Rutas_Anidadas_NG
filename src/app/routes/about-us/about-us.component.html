@@ -1,5 +1,7 @@
 <app-navbar></app-navbar>
 <h1>About Us</h1>
+<br />
+<hr />
 <p>
   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet repudiandae
   deleniti aut, ducimus inventore reiciendis veniam odit in facere esse possimus
@@ -12,4 +14,10 @@
   Sapiente at nam veniam ab eos, earum suscipit assumenda ullam.
 </p>
 
-<div class="about-us-container"></div>
+<div class="about-us-container">
+  <div class="about-us-links">
+    <a routerLink="first" routerLinkActive="active">First Component</a>
+    <a routerLink="second" routerLinkActive="active">Second Component</a>
+  </div>
+  <router-outlet />
+</div>

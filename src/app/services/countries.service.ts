@@ -9,7 +9,8 @@ import { CountryShort } from '../interface/CountryShort';
   providedIn: 'root',
 })
 export class CountriesService {
-  url = 'https://restcountries.com/v3.1/all';
+  url: string = 'https://restcountries.com/v3.1/all';
+  urlByName: string = 'https://restcountries.com/v3.1/name/{name}';
   private httpClient = inject(HttpClient);
 
   getCountries(): Observable<CountryShort[]> {
