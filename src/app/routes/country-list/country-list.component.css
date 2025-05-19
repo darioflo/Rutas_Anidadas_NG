@@ -1,4 +1,4 @@
-/* Estilo general del contenedor */
+
 .country-lis-container {
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +10,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo de cada tarjeta de país */
+
 .country-card {
   display: flex;
   flex-direction: column;
@@ -30,7 +30,6 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo de la imagen de la bandera */
 .country-card img {
   width: 100%;
   height: auto;
@@ -38,7 +37,6 @@
   margin-bottom: 10px;
 }
 
-/* Estilo del nombre del país */
 .country-card p {
   font-size: 1.2rem;
   font-weight: bold;
